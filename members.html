@@ -1,69 +1,69 @@
-<!-- FILE: members.html -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Equipe - LIMMA</title>
-<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-<link rel="icon" href="assets/img/limma_favicon.png" sizes="32x32">
-</head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equipe - LIMMA</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </head>
 
+  <body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+    <!-- Cabeçalho -->
+    <header class="bg-blue-900 text-white shadow-lg">
+      <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+        <div>
+          <h1 class="text-2xl font-semibold tracking-wide">LIMMA</h1>
+          <p class="text-sm text-blue-200">Laboratório Integrado de Micrometeorologia e Modelagem Atmosférica</p>
+        </div>
+        <nav class="space-x-6 text-sm">
+          <a href="index.html" class="hover:text-yellow-300">Início</a>
+          <a href="about.html" class="hover:text-yellow-300">Sobre</a>
+          <a href="research.html" class="hover:text-yellow-300">Pesquisas</a>
+          <a href="members.html" class="text-yellow-300 font-semibold">Equipe</a>
+          <a href="publications.html" class="hover:text-yellow-300">Publicações</a>
+          <a href="contact.html" class="hover:text-yellow-300">Contato</a>
+        </nav>
+      </div>
+    </header>
 
-<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
-<header class="bg-blue-900 text-white shadow-lg">
-<div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-<div>
-<a href="index.html" class="flex items-center space-x-3">
-<img src="assets/img/limma_logo_01.png" alt="LIMMA" class="h-14 w-auto">
-<div class="hidden sm:block">
-<h1 class="text-2xl font-semibold tracking-wide">LIMMA</h1>
-<p class="text-sm text-blue-200">Laboratório Integrado de Micrometeorologia e Modelagem Atmosférica</p>
-</div>
-</a>
-</div>
-<nav class="space-x-6 text-sm">
-<a href="index.html" class="hover:text-yellow-300">Início</a>
-<a href="about.html" class="hover:text-yellow-300">Sobre</a>
-<a href="research.html" class="hover:text-yellow-300">Pesquisas</a>
-<a href="members.html" class="text-yellow-300 font-semibold">Equipe</a>
-<a href="publications.html" class="hover:text-yellow-300">Publicações</a>
-<a href="contact.html" class="hover:text-yellow-300">Contato</a>
-</nav>
-</div>
-</header>
+    <!-- Conteúdo principal -->
+    <main class="flex-grow max-w-6xl mx-auto py-12 px-6">
+      <h2 class="text-3xl font-bold text-blue-900 mb-8">Equipe LIMMA</h2>
 
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- João Bosco -->
+        <div class="bg-white shadow-md rounded-2xl p-6 text-center">
+          <img src="images/joao-bosco.png" alt="João Bosco Verçosa Leal Junior" class="mx-auto rounded-full h-40 w-40 object-cover mb-4">
+          <h3 class="font-semibold text-lg text-blue-900">Prof. Dr. João Bosco Verçosa Leal Junior</h3>
+          <p class="text-sm text-gray-600 mb-2">Coordenador do LIMMA</p>
+          <a href="http://lattes.cnpq.br/7963798931989516" target="_blank" class="text-blue-700 text-sm hover:underline">Currículo Lattes</a>
+        </div>
 
-<main class="flex-grow max-w-6xl mx-auto py-12 px-6">
-<h2 class="text-3xl font-bold text-blue-900 mb-8">Equipe LIMMA</h2>
+        <!-- Francisco Roberto -->
+        <div class="bg-white shadow-md rounded-2xl p-6 text-center">
+          <img src="images/fcoroberto.jpg" alt="Francisco Roberto Silva Lima" class="mx-auto rounded-full h-40 w-40 object-cover mb-4">
+          <h3 class="font-semibold text-lg text-blue-900">Francisco Roberto Silva Lima</h3>
+          <p class="text-sm text-gray-600 mb-2">Pesquisador e Mestrando MACFA</p>
+          <a href="http://lattes.cnpq.br/7142053451760287" target="_blank" class="text-blue-700 text-sm hover:underline">Currículo Lattes</a>
+        </div>
 
+        <!-- Placeholder para novos membros -->
+        <div class="bg-white shadow-md rounded-2xl p-6 text-center">
+          <img src="https://via.placeholder.com/150" alt="Integrante do LIMMA" class="mx-auto rounded-full mb-4">
+          <h3 class="font-semibold text-lg text-blue-900">Integrante do LIMMA</h3>
+          <p class="text-sm text-gray-600 mb-2">Estudante de Iniciação Científica</p>
+          <a href="#" class="text-blue-700 text-sm hover:underline">Currículo Lattes</a>
+        </div>
+      </div>
+    </main>
 
-<div class="grid md:grid-cols-3 gap-8">
-<div class="bg-white shadow-md rounded-2xl p-6 text-center">
-<img src="https://via.placeholder.com/150" alt="João Bosco Verçosa Leal Junior" class="mx-auto rounded-full mb-4">
-<h3 class="font-semibold text-lg text-blue-900">Prof. Dr. João Bosco Verçosa Leal Junior</h3>
-<p class="text-sm text-gray-600 mb-2">Coordenador do LIMMA</p>
-<a href="#" class="text-blue-700 text-sm hover:underline">Currículo Lattes</a>
-</div>
-
-
-<div class="bg-white shadow-md rounded-2xl p-6 text-center">
-<img src="https://via.placeholder.com/150" alt="Francisco Roberto Silva Lima" class="mx-auto rounded-full mb-4">
-<h3 class="font-semibold text-lg text-blue-900">Francisco Roberto Silva Lima</h3>
-<p class="text-sm text-gray-600 mb-2">Pesquisador e Mestrando MACFA</p>
-<a href="#" class="text-blue-700 text-sm hover:underline">Currículo Lattes</a>
-</div>
-
-
-<div class="bg-white shadow-md rounded-2xl p-6 text-center">
-<img src="https://via.placeholder.com/150" alt="Integrante do LIMMA" class="mx-auto rounded-full mb-4">
-<h3 class="font-semibold text-lg text-blue-900">Integrante do LIMMA</h3>
-<p class="text-sm text-gray-600 mb-2">Estudante de Iniciação Científica</p>
-<a href="#" class="text-blue-700 text-sm hover:underline">Currículo Lattes</a>
-</div>
-</div>
-</main>
-
-
-<footer class="bg-blue-900 text-white text-center py-6 mt-auto">
-<p class="text-sm">LIMMA - Laboratório Integrado de Micrometeorologia e Modelagem Atmosférica<br>Universidade Estadual do Ceará (UECE)</p>
-<p class="text-xs text-blue-200 mt-2">© 2025 LIMMA. Todos os direitos reservados.</p>
-</footer>
-</body>
+    <!-- Rodapé -->
+    <footer class="bg-blue-900 text-white text-center py-6 mt-auto">
+      <p class="text-sm">
+        LIMMA - Laboratório Integrado de Micrometeorologia e Modelagem Atmosférica<br />
+        Universidade Estadual do Ceará (UECE)
+      </p>
+      <p class="text-xs text-blue-200 mt-2">© 2025 LIMMA. Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>
